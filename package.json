@@ -1,0 +1,37 @@
+{
+  "name": "mushroom-blend-calculator",
+  "version": "1.0.0",
+  "description": "Un outil interactif pour calculer les proportions optimales de champignons adaptogènes dans les mélanges de café",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/",
+    "build": "node scripts/build.js",
+    "start": "node examples/demo.js"
+  },
+  "keywords": [
+    "mushroom",
+    "adaptogenic",
+    "coffee",
+    "blend",
+    "calculator",
+    "nutrition"
+  ],
+  "author": "Mushroom Blend Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mushroom-blend/calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mushroom-blend/calculator/issues"
+  },
+  "homepage": "https://github.com/mushroom-blend/calculator#readme",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "jest": "^29.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
